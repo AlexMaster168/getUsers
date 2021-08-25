@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.header, .footer {
+    background-color: #3e3e3e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.footer {
+    margin-top: 15px;
+    height: 150px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper > div {
+    margin: 0 1rem 2rem 1rem;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.button-container, .error-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.error-text {
+    color: red;
+}

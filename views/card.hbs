@@ -1,0 +1,21 @@
+<div class="wrapper">
+{{#if cards.length}}
+    {{#each cards}}
+            <div class="card" style="width: 18rem;">
+                <img src={{avatar}} class="card-img-top" alt="img">
+                <div class="card-body">
+                    <p>
+                        <strong>{{first_name}}</strong>
+                    </p>
+                    <p>{{email}}</p>
+                </div>
+            </div>
+    {{/each}}
+    </div>
+{{else}}
+    <p class="error-text">There are no users</p>
+{{/if}}
+
+<div class="container button-container">
+    <button class="btn btn-primary" id="load">Load More</button>
+</div>
